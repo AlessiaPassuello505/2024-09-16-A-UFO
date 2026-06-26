@@ -13,6 +13,7 @@ class State:
     Area: float
     Population: int
     Neighbors: []
+    duration:float
 
     def __str__(self):
         return self.Name
